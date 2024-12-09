@@ -5,6 +5,7 @@
 }
 body{
     background-color: #131313;
+    color: grey;
 }
 header{
 display: flex;
@@ -18,4 +19,39 @@ gap: 200px;
     display: flex;
     gap: 50px;
     color: white;
+}
+
+.Jane{
+    width: auto;
+    height: 902px;
+    display: flex;
+    gap: 20px;
+}
+.square{
+    display: flex;
+    gap: 20px;
+}
+.Awards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Recognitions{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Socials{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.aplgz{
+    display: flex;
+    gap: 20px;
 }
