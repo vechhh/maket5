@@ -8,12 +8,12 @@ body{
     color: grey;
 }
 header{
-display: flex;
-align-items: center;
-justify-content: center;
-width: auto;
-height: 100px;
-gap: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 100px;
+    gap: 200px;
 }
 .headText{
     display: flex;
@@ -26,6 +26,11 @@ gap: 200px;
     height: 902px;
     display: flex;
     gap: 20px;
+}
+.JaneText{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 .square{
     display: flex;
@@ -54,4 +59,15 @@ gap: 200px;
 .aplgz{
     display: flex;
     gap: 20px;
+}
+bottom{
+    width: 128px;
+    height: 39px;
+    color: black;
+    background-color: white;
+    border-color: white;
+    border-radius: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
