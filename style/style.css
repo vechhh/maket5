@@ -6,6 +6,7 @@
 body{
     background-color: #131313;
     color: grey;
+    gap: 50px;
 }
 header{
     display: flex;
@@ -23,7 +24,7 @@ header{
 
 .Jane{
     width: auto;
-    height: 902px;
+    height: 622px;
     display: flex;
     gap: 20px;
 }
@@ -32,6 +33,18 @@ header{
     flex-direction: column;
     gap: 50px;
 }
+.JaneText > h5{
+    color: orange;
+}
+
+
+.JaneText > h1{
+    color: #FFFFFF;
+    position: absolute;
+    left: 400px;
+    margin: 20px;
+}
+
 .square{
     display: flex;
     gap: 20px;
@@ -41,20 +54,32 @@ header{
     flex-direction: column;
     gap: 20px;
 }
+.Awards > h1{
+    color: #FFFFFF;
+}
 .Skills{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.Skills > h1{
+    color: #FFFFFF;
 }
 .Recognitions{
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
+.Recognitions > h1{
+    color: #FFFFFF;
+}
 .Socials{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.Socials > h1{
+    color: #FFFFFF;
 }
 .aplgz{
     display: flex;
@@ -71,3 +96,80 @@ bottom{
     align-items: center;
     justify-content: center;
 }
+
+.numbers{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100px;
+    color: white;
+    margin: 50px;
+}
+.num > h1 {
+    font-size: 70px;
+}
+.num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 280px;
+}
+.words{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 212px;
+}
+
+.crebiz{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 500px;
+    gap: 50px;
+    color: #FFFFFF;
+}
+.Text_{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.Quick{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ContactE{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.lie{
+    display: flex;
+    gap: 180px;
+}
+
+footer{
+    display: flex;
+    gap: 20px;
+}
+.circle{
+    width: 146px;
+    height: 146px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    gap: 10px;
+    margin-top: -50px;
+}
+.footeraa{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: end;
+}
+
